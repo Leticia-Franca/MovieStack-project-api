@@ -1,0 +1,48 @@
+#navbar {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 1.5rem 2rem;
+	row-gap: 1rem;
+	border-bottom: 1px solid #f7d354;
+}
+
+#navbar h2 a {
+	display: flex;
+	gap: 0.5rem;
+}
+
+#navbar form {
+	display: flex;
+	position: relative;
+}
+
+#navbar input {
+	padding: 0.6rem 1rem;
+	border-radius: 0.4rem;
+	border: none;
+	font-size: 1rem;
+}
+
+.submitButton {
+	padding: 0 0.5rem;
+	height: 100%;
+	background-color: #f7d354;
+	border: 1px solid #f7d354;
+	color: #000;
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: 1.3rem;
+	display: flex;
+	border-radius: 0.4rem;
+	align-items: center;
+	transition: .5s;
+	cursor: pointer;
+}
+
+.submitButton:hover {
+	background-color: transparent;
+	color: #f7d354;
+}
